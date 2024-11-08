@@ -4,9 +4,7 @@ import { TextGenerateEffect } from './ui/Text-generate-effect'
 import MagicButton from './ui/Magic-Button'
 import { FaLocationArrow } from 'react-icons/fa6'
 
-type Props = {}
-
-const Hero = (props: Props) => {
+const Hero = () => {
   return (
     <div className='pb-20 pt-36'>
         <div>
@@ -30,7 +28,7 @@ const Hero = (props: Props) => {
           Hi, I&apos;m Arsalaan Khan, a web developer based in India.
         </p>
         <a href='#about'>
-          <MagicButton title="Show my work" icon={<FaLocationArrow/>} position='right' />
+          <MagicButton title="Get to Know Me 😎" icon={<FaLocationArrow/>} position='right' />
         </a>
       </div>
     </div>
